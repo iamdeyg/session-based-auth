@@ -1,0 +1,26 @@
+{
+  "name": "build-with-me",
+  "version": "1.0.0",
+  "description": "An session based auth app",
+  "homepage": "https://github.com/iamdeyg/session-based-auth#readme",
+  "bugs": {
+    "url": "https://github.com/iamdeyg/session-based-auth/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamdeyg/session-based-auth.git"
+  },
+  "license": "ISC",
+  "author": "Adedeji Aderinola",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start:prod": "node ./dist/src/index.js",
+    "start:dev": "nodemon",
+    "build": "tsc",
+    "test": "NODE_ENV=test jest --coverage"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
